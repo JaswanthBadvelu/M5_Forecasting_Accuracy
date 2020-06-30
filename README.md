@@ -14,6 +14,6 @@ In March this year(2020), the fifth iteration named M5 competition was held. Thi
 ## Dataset:
 The dataset provided contains 42,840 hierarchical sales data from Walmart. The dataset covers stores in three US states (California, Texas, and Wisconsin) and includes item level, department, product categories, and store details for 5 years starting from 29th Jan 2011 to 24th April 2016. Also, it has explanatory variables such as price, snap events, day of the week, and special events and festivals.The data comprises 3049 individual products from 3 categories and 7 departments, sold in 10 stores in 3 states. The hierarchical aggregation captures the combinations of these factors which makes it feasible to perform a bottom-up approach or top-down approach. For instance, we can create 1 time series for all sales or perform for each state separately and so on. And datset can be downloaded from [here](https://www.kaggle.com/c/m5-forecasting-accuracy/data)
 
-
+## Modelling
 The models used to forecast sales are Xgboost, Catboost,Lightgbm and facebook prophet. Total Code was written in R languaue and code is uploaded in Jupyter Notebook format.
 My kaggle notebook can be accessed directly from [here](https://www.kaggle.com/jaswanthhbadvelu/cat-xgb-lgboost-prophet).
